@@ -10,19 +10,6 @@ import styles from "./SkillsSection.module.scss";
 
 const cx = classNames.bind(styles);
 
-//const SkillsSection: NextPage<ISkillsSectionProps> = ({ skills }) => {
-  //const languages = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.LANGUAGES));
-  //const frontend = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.FRONTEND));
-  //const uilibraries = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.UI_LIBRARIES));
-  //const backend = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.BACKEND));
-  //const database = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.DATABASE));
-  //const deployment = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.DEPLOYMENT));
-  //const ml = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.MACHINE_LEARNING));
-  //const cv = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.COMPUTER_VISION));
-  //const nlp = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.NLP));
-  //const cloud = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.CLOUD));
-  //const tools = useFilteredSkills(skills.filter(skill => skill.fieldType === SKILLSET.TOOLS));
-  //const familiar = useFilteredSkills(skills.filter(skill => skill.proficient === false));
 
   return (
     <div className={cx("skills")}> 
