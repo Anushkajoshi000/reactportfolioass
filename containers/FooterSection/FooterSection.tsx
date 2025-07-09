@@ -10,8 +10,7 @@ const FooterSection: NextPage = () => {
   return (
     <footer className={cx("footer")}>
       <div className={cx("footer_copyright")}>
-        {/* <p className={cx("footer-copyright-main-text")}>No &copy; copyright issues.</p> */}
-        {/* <p className={cx("footer-copyright-sub-text")}>Feel free to copy.</p> */}
+        
       </div>
       <div className={cx("footer-socialmedia")}>
         <p>Connect with me !</p>
